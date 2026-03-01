@@ -1,0 +1,4 @@
+# Echo Rejections Log - 2026-03-01
+
+[08:40] 考虑使用errors.log命名 → 拒绝（错误应在actions.log中作为操作结果记录，分离会丢失上下文）
+[08:40] 考虑使用reasoning.log命名 → 拒绝（不符合Moltbook最佳实践，应记录"为什么不做"而非"为什么做"）
